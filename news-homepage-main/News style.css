@@ -1,0 +1,113 @@
+  @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700;800&display=swap');
+/* :root{
+    --off-white:var(--off-white)
+    --grayish blue:var(--grayish blue)
+   /* -- Off-white: hsl(36, 100%, 99%)
+Grayish blue: hsl(233, 8%, 79%)
+- Soft orange: hsl(35, 77%, 62%)
+- Soft red: hsl(5, 85%, 63%)
+Dark grayish blue: hsl(236, 13%, 42%)
+Very dark blue: hsl(240, 100%, 5%) */
+.main h1{
+    width: 30%;
+    font-weight: 800;
+}
+.main button:hover{
+    background-color: black;
+    cursor: pointer;
+}
+.main p{
+    line-height: 1.5rem;
+}
+body{
+    margin: 1.5rem;
+    font-size: 15px;
+    background:  hsl(36, 100%, 99%);
+    font-family: 'Inter', sans-serif;
+}
+p{
+    color:  hsl(233, 8%, 79%);
+    width: 50%;
+}
+button{
+    background:  hsl(5, 85%, 63%);
+    border: 0;
+    text-transform: uppercase;
+    color: white;
+    letter-spacing: 0.3rem;
+    width: 12rem;
+    height: 3rem;
+    font-weight: 600;
+}
+ul{
+    list-style: none;
+    margin-left: 10rem;
+    line-height: 2.5rem;
+}
+.container{
+    background:  hsl(240, 100%, 5%);
+    width: 90%;
+    padding: 2rem;
+    margin-block-end: 2rem;
+    margin-block-start: 2rem;
+    justify-content: center;
+}
+.container h2{
+    color:  hsl(35, 77%, 62%);
+    
+}
+.container a:hover{
+    color: hsl(35, 77%, 62%);
+    cursor: pointer;
+}
+.container h4 a{
+    color: white;
+    text-decoration: none;
+}
+/* .logo-menu{
+    display: flex;
+    
+} */
+
+.top{
+    display: flex;
+   list-style: none;
+    
+}
+.top  a{
+    text-decoration: none;
+    color: hsl(240, 100%, 5%);
+    list-style: none;
+}
+.top a:hover{
+    color: hsl(5, 85%, 63%);
+}
+.lastly{
+    display: flex;
+    margin-block-end: 3rem;
+}
+.lastly h2{
+    color: hsl(233, 8%, 79%);
+  
+   
+}
+.lastly h5 a{
+    width: 100%;
+    text-decoration: none;
+    color: hsl(240, 100%, 5%);
+
+}
+.lastly a:hover{
+    color: hsl(5, 85%, 63%);
+}
+.lastly p{
+    width: 60%;
+    line-height: 2rem;
+}
+span{
+    margin: 2rem;
+    justify-content: center;
+   
+}
+
+  
